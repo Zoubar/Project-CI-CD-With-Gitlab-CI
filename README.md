@@ -28,7 +28,7 @@ Résultat s'affiche dans localhost:9001 :
 
 Configuration Gitlab :
 
-![alt text]({944B0EBA-D03F-4C41-A3E2-34DF77060306}.png)
+![{38AFB6D7-BD7B-4531-AE5C-090E579171B6}](https://github.com/user-attachments/assets/fff92c6b-cf2e-4e33-99fa-b57de7a47c70)
 
 
 Les Résultas de la Configuration :
@@ -37,20 +37,23 @@ Les Résultas de la Configuration :
 
 
 
-Maven  Build  : ![alt text]({3A656A61-9A77-4DDE-85F4-B33D12D6782C}.png)
-Docker Build  : ![alt text]({AA2676D0-008C-4F3B-9597-F6807DD1B0A7}.png)
-Docker Deploy : ![alt text]({80D66209-6037-4023-8A82-7CAAC035876D}.png)
+Maven  Build  :![{FA5BF424-0187-43A4-B255-5BF00E7624CC}](https://github.com/user-attachments/assets/e7c216c4-df54-4848-8ff5-a6dd92bc1ed8)
+
+Docker Build  : ![{D8444C35-E5CB-4054-93A2-16FD5F957BE1}](https://github.com/user-attachments/assets/047a464e-58d2-4598-a6d3-b40b14449e10)
+
+Docker Deploy : ![{C6B86C3E-C35C-4152-8A15-23BC43020777}](https://github.com/user-attachments/assets/6bb20731-5b29-4307-9a16-09233d34d002)
+
 
 Les Tests Unitaires ( ProductControllerUnitTest = MockMvc ) :
 
-![{29FB8F6C-026D-4354-A396-51DF59F395B0}](https://github.com/user-attachments/assets/cfe7c772-1499-4a02-9675-f9b72c8e9506)
+![{F92A55C2-D80E-4C05-AF48-AE58AEE50584}](https://github.com/user-attachments/assets/5e5bdc83-df4d-4880-a6f1-1a3ff34cdc29)
 
 Les Tests Unitaires ( ProductDaoUnitTest = JUnit 5 ) :
 
-![alt text]({E132418B-29F4-494A-BC47-087F577D9300}.png)
+![{29380C44-1F97-468F-96EB-4280735D82A7}](https://github.com/user-attachments/assets/032b4196-eb78-4143-93a5-88b8c8bdea33)
 
 Utilisation de base de données H2 pour le testing :
+![image](https://github.com/user-attachments/assets/ef89a5b7-8687-44ed-8beb-8099221fff8f)
 
-![{F92A55C2-D80E-4C05-AF48-AE58AEE50584}](https://github.com/user-attachments/assets/5e5bdc83-df4d-4880-a6f1-1a3ff34cdc29)
+![{F036D727-DFC3-4F20-9F38-81DB8565387C}](https://github.com/user-attachments/assets/776abf66-8bfc-44ae-8b4b-7ccfc19d487b)
 
-![{29380C44-1F97-468F-96EB-4280735D82A7}](https://github.com/user-attachments/assets/032b4196-eb78-4143-93a5-88b8c8bdea33)
