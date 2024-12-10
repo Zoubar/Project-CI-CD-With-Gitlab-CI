@@ -1,0 +1,39 @@
+image: docker:latest
+services:
+  - docker:dind
+
+stages:
+  - build
+  - package
+  - deploy
+
+# Maven build stage
+maven-build:
+  image: maven:3.9.4-eclipse-temurin-21
+  stage: build
+  script:
+    - mvn package -B
+  artifacts:
+    paths:
+      - target/*.jar  # Adjust this path to match your Maven project's output
+
+# Docker image build and push
+docker-build:
+  stage: package
+  before_script:
+    
+      - docker login -u yassinezoubairi12345 -p $DOCKER_HUB_PASSWORD
+  script:
+    - docker build -t yassinezoubairi12345/product-microservice:v1 .  # Build Docker image
+    - docker push yassinezoubairi12345/product-microservice:v1  # Push Docker image to Docker Hub
+
+# Deployment stage
+docker-deploy:
+  stage: deploy
+  before_script:
+    - apk add --update curl && rm -rf /var/cache/apk/*
+  script:
+    # Run the Docker container
+    - docker run -d -p 9001:9001 --name product-microservice yassinezoubairi12345/product-microservice:v1
+    - sleep 30
+    - docker logs product-microservice
