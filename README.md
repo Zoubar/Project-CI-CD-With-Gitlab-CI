@@ -45,3 +45,5 @@ Les Tests Unitaires ( ProductControllerUnitTest = MockMvc ) ,  Les Tests Unitair
 Utilisation de base de données H2 pour le testing : 
 
 ![{42A016C1-AC39-497B-B909-E9896ACC9B8F}.png](..%2F%7B42A016C1-AC39-497B-B909-E9896ACC9B8F%7D.png)
+
+![{C1EEBB33-FB7B-4D23-968E-AAE96ADDB933}.png](..%2F%7BC1EEBB33-FB7B-4D23-968E-AAE96ADDB933%7D.png)
