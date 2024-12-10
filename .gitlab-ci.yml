@@ -6,7 +6,7 @@ stages:
   - package
   - deploy
 
-# Maven build   
+# Maven build
 maven-build:
   image: maven:3.9.4-eclipse-temurin-21
   stage: build
