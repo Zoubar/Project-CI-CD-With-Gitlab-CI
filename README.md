@@ -1,4 +1,4 @@
-Ce projet est une application de démonstration utilisant Spring Boot pour gérer des produits dans une base de données. Il comprend un module de test unitaire 
+Ce projet est une application de démonstration utilisant Spring Boot pour gérer des produits dans une base de données. Il comprend un module de test unitaire
 pour tester les opérations CRUD sur l'entité Product en utilisant JUnit et le framework Spring Data JPA.
 L'application utilise également Docker pour le build et le déploiement automatisé,
 et GitLab CI/CD pour la pipeline de déploiement, qui comprend les étapes de construction, de packaging et de déploiement de l'image Docker
@@ -8,42 +8,45 @@ et GitLab CI/CD pour la pipeline de déploiement, qui comprend les étapes de co
 
 Configuration Docker :
 
-![{B8641C3F-FB75-4394-BD4F-327334EC4384}.png](..%2F%7BB8641C3F-FB75-4394-BD4F-327334EC4384%7D.png)
+![alt text]({B6BD15D8-B944-43B8-83AB-B73AA2A60A17}.png)
 
 Cette image montre les informations du conteneur  nommé "yassinezoubairi12345/product-microservice:v1"
 
-![{87ACFA12-0F2B-486F-A16D-94DF0511691E}.png](..%2F%7B87ACFA12-0F2B-486F-A16D-94DF0511691E%7D.png)
+![alt text]({59B31DB4-1158-4DF5-9B5A-25FF6A41CDB9}.png)
 
 
-Configuration Gitlab : 
+Résultat s'affiche dans localhost:9001
 
-![{FCC1B14E-2060-4E5F-B436-9BF9C892B3AB}.png](..%2F%7BFCC1B14E-2060-4E5F-B436-9BF9C892B3AB%7D.png)
+![alt text]({C982BF13-0790-49CF-8F61-4098E2809887}.png)
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+Configuration Gitlab :
+
+![alt text]({72846D17-7F97-40F7-B611-1E067F225505}.png)
 
 Les Résulats de la Configuration :
 
+![alt text]({E0E723E7-9F11-42C6-9787-C28DE9B0374B}.png)
 
-![{ADE5EB4B-F636-4890-9193-72D862DBC993}.png](..%2F%7BADE5EB4B-F636-4890-9193-72D862DBC993%7D.png)
+Maven  Build  : ![alt text]({7365104F-C93C-4556-BDBB-5A651FA24149}.png)
+Docker Build  : ![alt text]({CD9CA7AC-E877-4D42-90FC-6EF8FAA7DAFB}.png)
+Docker Deploy : ![alt text]({80D66209-6037-4023-8A82-7CAAC035876D}.png)
 
-![{5800B085-C123-4381-8C19-ECCBC48CA23C}.png](..%2F%7B5800B085-C123-4381-8C19-ECCBC48CA23C%7D.png)
+Les Tests Unitaires ( ProductControllerUnitTest = MockMvc ) :
 
-![{E13BC53F-8F5B-4C06-A5FC-6EE0E2463A57}.png](..%2F%7BE13BC53F-8F5B-4C06-A5FC-6EE0E2463A57%7D.png)
-
-![{3F66C853-F715-4932-A355-F9EAD4C5B79C}.png](..%2F%7B3F66C853-F715-4932-A355-F9EAD4C5B79C%7D.png)
-
-![{189E4499-AE47-49A9-A171-0CA1FFF3068F}.png](..%2F%7B189E4499-AE47-49A9-A171-0CA1FFF3068F%7D.png)
-
-![{84F6830B-2EE1-4E30-8AD2-E4DD022F1BA6}.png](..%2F%7B84F6830B-2EE1-4E30-8AD2-E4DD022F1BA6%7D.png)
+![alt text]({9B07FB50-C15B-4ECB-AD85-8A3A4FB028FF}.png)
 
 
-Les Tests Unitaires ( ProductControllerUnitTest = MockMvc ) ,  Les Tests Unitaires ( ProductDaoUnitTest = JUnit 5 ) :
-
-![{C1EEBB33-FB7B-4D23-968E-AAE96ADDB933}.png](..%2F%7BC1EEBB33-FB7B-4D23-968E-AAE96ADDB933%7D.png)
-
-![{3D18EF63-E60A-444B-8FFB-9215F6B2B80D}.png](..%2F%7B3D18EF63-E60A-444B-8FFB-9215F6B2B80D%7D.png)
+Les Tests Unitaires ( ProductDaoUnitTest = JUnit 5 ) :
 
 
-Utilisation de base de données H2 pour le testing : 
+![alt text]({246E265F-0587-4A45-A786-3D972D84889E}.png)
 
-![{42A016C1-AC39-497B-B909-E9896ACC9B8F}.png](..%2F%7B42A016C1-AC39-497B-B909-E9896ACC9B8F%7D.png)
 
-![{C1EEBB33-FB7B-4D23-968E-AAE96ADDB933}.png](..%2F%7BC1EEBB33-FB7B-4D23-968E-AAE96ADDB933%7D.png)
+Utilisation de base de données H2 pour le testing :
+
+![alt text]({870CF33B-88F7-425B-BAB4-694ACE400710}.png)
+
+![alt text]({FDFE9969-276C-4961-983C-A4AF6C58F872}.png)
