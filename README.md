@@ -51,7 +51,7 @@ Les Tests Unitaires ( ProductControllerUnitTest = MockMvc ) :
 
 Les Tests Unitaires ( ProductDaoUnitTest = JUnit 5 ) :
 
-![{F92A55C2-D80E-4C05-AF48-AE58AEE50584}](https://github.com/user-attachments/assets/5e5bdc83-df4d-4880-a6f1-1a3ff34cdc29)
+![{43169428-85F1-4C1D-9D0C-DA71B4712002}](https://github.com/user-attachments/assets/84566098-b9c0-4f5e-a735-1ecfe15e3326)
 
 Utilisation de base de données H2 pour le testing :
 
