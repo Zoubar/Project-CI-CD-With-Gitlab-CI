@@ -15,7 +15,7 @@ Configuration Docker :
 
 Cette image montre les informations du conteneur  nommé "yassinezoubairi12345/product-microservice:v1"
 
-![Uploading {7FE6F610-42EE-42F9-8DAB-162C0B1A3647}.png…]()
+![{7FE6F610-42EE-42F9-8DAB-162C0B1A3647}](https://github.com/user-attachments/assets/8e539bc4-8e09-4880-9173-90cb9f730bde)
 
 Résultat s'affiche dans localhost:9001 :
 
