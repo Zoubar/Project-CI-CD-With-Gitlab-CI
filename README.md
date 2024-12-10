@@ -8,11 +8,10 @@ et GitLab CI/CD pour la pipeline de déploiement, qui comprend les étapes de co
 
 Configuration Docker :
 
-![alt text]({B6BD15D8-B944-43B8-83AB-B73AA2A60A17}.png)
 
 Cette image montre les informations du conteneur  nommé "yassinezoubairi12345/product-microservice:v1"
 
-![alt text]({59B31DB4-1158-4DF5-9B5A-25FF6A41CDB9}.png)
+![alt text]({59B31D![img.png](img.png)B4-1158-4DF5-9B5A-25FF6A41CDB9}.png)
 
 
 Résultat s'affiche dans localhost:9001
