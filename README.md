@@ -43,7 +43,7 @@ Docker Deploy : ![alt text]({80D66209-6037-4023-8A82-7CAAC035876D}.png)
 
 Les Tests Unitaires ( ProductControllerUnitTest = MockMvc ) :
 
-![alt text]({23B7FF6E-BF64-490A-9EE5-3360899968DC}.png)
+![{29FB8F6C-026D-4354-A396-51DF59F395B0}](https://github.com/user-attachments/assets/cfe7c772-1499-4a02-9675-f9b72c8e9506)
 
 Les Tests Unitaires ( ProductDaoUnitTest = JUnit 5 ) :
 
