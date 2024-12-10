@@ -19,9 +19,9 @@ Cette image montre les informations du conteneur  nommé "yassinezoubairi12345/p
 
 Résultat s'affiche dans localhost:9001 :
 
-![alt text]({A7D80730-CA27-4B95-90C4-ECE3E150B676}.png)
+![{840D1E53-6B39-4BE2-BAB3-92864A124322}](https://github.com/user-attachments/assets/20c2a0a4-a922-4f30-828f-7214e9d5dd60)
 
-![alt text]({A514F0CC-FDDA-4566-8204-ADE7E994A838}.png)
+![{E99B506E-77B1-4504-A007-2C4992A0D744}](https://github.com/user-attachments/assets/5d33ffc2-922c-4ef7-8a6b-4c0fa0037c64)
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -33,7 +33,7 @@ Configuration Gitlab :
 
 Les Résultas de la Configuration :
 
-![alt text]({BD0B65D3-40B7-451E-9986-16FD8EFFCE6B}.png)
+![{59F23E19-8E5A-4D35-A75A-9C4702D600CF}](https://github.com/user-attachments/assets/a938d698-361c-4819-9ea8-862927c4c412)
 
 
 
@@ -51,6 +51,6 @@ Les Tests Unitaires ( ProductDaoUnitTest = JUnit 5 ) :
 
 Utilisation de base de données H2 pour le testing :
 
-![alt text]({48E29C49-C8FE-4D75-9675-FA59F8CFE180}.png)
+![{F92A55C2-D80E-4C05-AF48-AE58AEE50584}](https://github.com/user-attachments/assets/5e5bdc83-df4d-4880-a6f1-1a3ff34cdc29)
 
-![alt text]({B757859B-ECD7-46AE-84EE-82F8F8A38BA9}.png)
+![{29380C44-1F97-468F-96EB-4280735D82A7}](https://github.com/user-attachments/assets/032b4196-eb78-4143-93a5-88b8c8bdea33)
